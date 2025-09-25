@@ -1,0 +1,90 @@
+print('hello world ')
+
+print('#' * 16) 
+
+# 2 -- application to take a number in binary form from the user, and print it as a decimal
+
+while True: 
+    userInput = input('Enter a binary number: ')
+
+    try:
+        print("binary number is ",  int(userInput, 2))
+        break
+    
+    except:
+        print(f"{userInput} no valid as binary number")
+
+print('#' * 16) 
+
+# 3 - # - write a function that takes a number as an argument and if the number
+# 		divisible by 3 return "Fizz" and if it is divisible by 5 return "buzz" and if is is
+# 		divisible by both return "FizzBuzz"
+
+def division_checker(num): 
+    if num % 3 == 0 and num % 5 == 0:
+        return "FizzBuzz"
+    elif num % 3 == 0: 
+        return "Fizz"
+    elif num % 5 == 0:
+        return "Buzz"
+    else:
+        return "Not Valid"
+
+
+while True:
+    try:
+        num = int(input('Enter a number for division: ')) 
+        print(division_checker(num))    
+        break
+
+    except:
+        print("Enter valid number")
+
+  
+
+
+print('#' * 16) 
+
+# 4- Ask the user to enter the radius of a circle print its calculated area and circumference
+
+while True:
+    try:
+        radius = int(input('Enter a radius value: ')) 
+        print(f"circle area = {3.14 * radius**2}")
+        print(f"circumference = {2 * 3.14 * radius}")        
+        break
+
+    except:
+        print("Enter valid number")
+
+print('#' * 16) 
+
+# 5- Ask the user for his name then confirm that he has entered his name
+#  (not an empty string/integers). 
+  
+
+while True:
+    try:
+        name = input('Enter your name: ')
+        print(f"name is {name}")
+        
+        email = input('Enter your email: ')
+        print(f"email is {email}")
+        
+        break
+
+    except:
+        print("Enter valid name")
+
+
+print('#' * 16) 
+
+#6- Write a program that prints the number of times the substring 'iti' occurs in a string
+
+def substring_count(text, substring):
+    return text.count(substring)
+
+
+print(substring_count("we are take iti course in iti place with iti team", "iti"))
+
+ 
