@@ -1,6 +1,3 @@
-
-
-
 # 1 - Ask the user to enter 5 numbers.
 # Store them, then display them in ascending order and descending order.
 def list_order(nums):
@@ -242,3 +239,4 @@ while True:
     except:
         print("Enter Integer Value")
     
+
