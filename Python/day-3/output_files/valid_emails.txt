@@ -1,0 +1,6 @@
+test.email@server.org
+admin@site.net
+email@valid.com
+contact@company.com
+user1@example.com
+hello@domain.com

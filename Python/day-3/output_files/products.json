@@ -1,0 +1,17 @@
+[
+    {
+        "product": "item1",
+        "price": 10.0,
+        "discounted": 9
+    },
+    {
+        "product": "item2",
+        "price": 20.0,
+        "discounted": 18
+    },
+    {
+        "product": "item3",
+        "price": 30.0,
+        "discounted": 27
+    }
+]

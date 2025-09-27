@@ -1,0 +1,24 @@
+Number: 14.6
+Floor: 14
+Ceil: 15
+Square Root: 3.82099463490856
+Area of Circle: 669.6618900392003
+
+Number: 5.3
+Floor: 5
+Ceil: 6
+Square Root: 2.3021728866442674
+Area of Circle: 88.24733763933729
+
+Number: 25.0
+Floor: 25
+Ceil: 25
+Square Root: 5.0
+Area of Circle: 1963.4954084936207
+
+Number: 80.0
+Floor: 80
+Ceil: 80
+Square Root: 8.94427190999916
+Area of Circle: 20106.192982974677
+
